@@ -729,20 +729,25 @@ body {
   margin: auto 30px;
 }
 
-h2 {
+.car-h2 {
   margin: 15px auto;
   text-align: center;
   font-size: 43px;
   font-weight: bold;
+  display: block;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
 }
 
-img {
+.car-img {
   margin: 0;
   width: 320px;
   height: 310px;
 }
 
-h3 {
+.car-h3 {
   margin-bottom: 0;
   padding: 1px;
 }
@@ -808,9 +813,10 @@ slick styles
   visibility: hidden;
 }
 
-.image:hover .text {
+.car-img:hover .text {
   visibility: visible;
 }
-img:hover {
+
+.car-img:hover {
   opacity: 0.3;
 }
