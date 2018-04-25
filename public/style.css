@@ -1,5 +1,22 @@
-body{
-  font-family: 'Trebuchet MS', sans-serif;
+body {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 12px;
+}
+
+.product-page {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.product-page.mini-cart-app {
+  display: flex;
+  align-self: flex-end;
+}
+
+.product-description {
+  display: flex;
+  flex-flow: row;
 }
 
 .thumbnails{
@@ -121,7 +138,7 @@ body{
   font-size: 12px;
   font-weight: 600;
   padding-top: 9px;
-  float: left; 
+  float: left;
   line-height: 16px;
   padding-left: 3px;
 }
@@ -366,11 +383,6 @@ body{
   line-height: 24px;
 }
 
-body {
-  font-family: "Fira Sans", sans-serif;
-  font-size: 12px;
-}
-
 .minicart-icon {
   box-sizing: border-box;
   background-color: red;
@@ -485,7 +497,7 @@ body {
   flex-flow: column;
   height: auto;
   width: 400px;
-  margin: 50px 0 0 0;
+  margin: 0;
 }
 
 .quickadd-select {
@@ -536,7 +548,7 @@ body {
 }
 
 .itempicker {
-  margin-top: 20px;
+  display: none;
 }
 
 .bar-left {
